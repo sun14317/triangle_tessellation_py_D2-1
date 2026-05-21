@@ -20,7 +20,7 @@ def draw_picture(width, height):
     # ==================================================================
     
     # code for RED triangles
-    sg.set_fill_color(colors[0]) # set fill color to red
+    sg.set_fill_color(colors[0]) # set fill color to purple
     
     for i in range(5):   # fill_triangle(x1, y1, x2, y2, x3, y3)
         sg.fill_triangle(2*TRIANGLE_WIDTH, i*TRIANGLE_HEIGHT, 3*TRIANGLE_WIDTH, i*TRIANGLE_HEIGHT, 3*TRIANGLE_WIDTH, (i+1)*TRIANGLE_HEIGHT) 
